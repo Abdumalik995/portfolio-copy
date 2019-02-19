@@ -896,7 +896,7 @@ footer>.r-right {
         font-size: 22px;
         cursor: pointer;
         width: 30%;
-        text-align: center;
+        text-align: right;
     }
     #icon {
         display: none !important;
