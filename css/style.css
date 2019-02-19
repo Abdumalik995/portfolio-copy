@@ -722,20 +722,21 @@ footer>.r-right {
         
         display: flex;
         justify-content: space-between;
+        align-items: baseline;
 
     }
     header .my {
         display: inline-block;        
         text-align: left;
         width: 60%;
-        padding-bottom: 30px !important;
+       
     }
     nav {
         display: none;
     }
     .r {
         font-size: 17px;
-        margin-bottom: 20px !important;       
+               
         
     }
     #head {
@@ -764,7 +765,7 @@ footer>.r-right {
         font-size: 22px;
         cursor: pointer;
         width: 30%;
-        text-align: right;
+        text-align: center;
     }
     #icon {
         display: none !important;
