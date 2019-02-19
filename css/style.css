@@ -722,21 +722,18 @@ footer>.r-right {
         display: flex;
         justify-content: space-between;
         align-items: center;
-
     }
     header .my {
         display: inline-block;        
         text-align: left;
         width: 60%;
-       
     }
     nav {
         display: none;
     }
     .r {
         font-size: 17px;
-               
-        
+      
     }
     #head {
         display: none;
@@ -850,17 +847,14 @@ footer>.r-right {
 }
 @media screen and (max-device-width: 375px) {
      header {
-        
         display: flex;
         justify-content: space-between;
         align-items: center;
-
     }
     header .my {
         display: inline-block;        
         text-align: left;
         width: 60%;
-       
     }
     nav {
         display: none;
@@ -868,7 +862,6 @@ footer>.r-right {
     .r {
         font-size: 17px;
                
-        
     }
     #head {
         display: none;
