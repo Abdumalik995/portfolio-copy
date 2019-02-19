@@ -30,7 +30,7 @@ $(document).ready(function() {
       } else if (forc=="b") {
         $('html, body').animate({scrollTop:750}, 500);
       } else if(forc=="c") {
-        $('html, body').animate({scrollTop:1440}, 700);
+        $('html, body').animate({scrollTop:1380}, 700);
       } else if(forc=="d") {
         $('html, body').animate({scrollTop:2100}, 900)
       } else if(forc=="e"){
