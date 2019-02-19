@@ -133,6 +133,7 @@ nav div {
 #minW a {
     text-decoration: none;
     color: #fff;
+    display: none;
 }
 #left>#icon>ul {
     padding-left: 0;
@@ -740,6 +741,9 @@ footer>.r-right {
     #minW {
         display: block;
     }
+    #minW a {
+        display: block;
+    }
     #icn {
         display: block;
         right: 0;
@@ -749,7 +753,10 @@ footer>.r-right {
         text-align: right;
     }
     #icon {
-        display: none;
+        display: none !important;
+    }
+    #icon>ul>li>.fab {
+        display: none !important;
     }
     #right h1 {
         margin-top: 40px;
@@ -770,7 +777,6 @@ footer>.r-right {
         width: 70px;
         height: 70px;
     }
-
     #bio, #edu, #wor, #exp {
         font-size: 6px;
     }
@@ -828,7 +834,6 @@ footer>.r-right {
         top: 142px;
     }
 }
-
 @media screen and (max-device-width: 375px) {
     header .my {
         display: block;
@@ -852,6 +857,9 @@ footer>.r-right {
     #minW {
         display: block;
     }
+    #minW a {
+        display: block;
+    }
     #icn {
         display: block;
         right: 0;
@@ -861,7 +869,10 @@ footer>.r-right {
         text-align: right;
     }
     #icon {
-        display: none;
+        display: none !important;
+    }
+    #icon>ul>li>.fab {
+        display: none !important;
     }
     #right h1 {
         margin-top: 40px;
@@ -882,7 +893,6 @@ footer>.r-right {
         width: 70px;
         height: 70px;
     }
-
     #bio, #edu, #wor, #exp {
         font-size: 6px;
     }
