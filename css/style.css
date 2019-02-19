@@ -728,6 +728,7 @@ footer>.r-right {
         display: inline-block;        
         text-align: left;
         width: 60%;
+        margin-bottom: 15px;
     }
     nav {
         display: none;
@@ -860,6 +861,7 @@ footer>.r-right {
         display: inline-block;        
         text-align: left;
         width: 60%;
+        margin-bottom: 15px;
     }
     nav {
         display: none;
