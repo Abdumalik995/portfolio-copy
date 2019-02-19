@@ -725,18 +725,17 @@ footer>.r-right {
 
     }
     header .my {
-        display: block;
-        float: left;
+        display: inline-block;        
         text-align: left;
         width: 60%;
-        padding-bottom: 20px !important;
+        padding-bottom: 30px !important;
     }
     nav {
         display: none;
     }
     .r {
         font-size: 17px;
-        margin-bottom: 10px !important;       
+        margin-bottom: 20px !important;       
         
     }
     #head {
@@ -760,8 +759,7 @@ footer>.r-right {
         display: block;
     }
     #icn {
-        display: block;
-        float: left;
+        display: inline-block;        
         right: 0;
         font-size: 22px;
         cursor: pointer;
