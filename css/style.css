@@ -850,7 +850,7 @@ footer>.r-right {
         top: 142px;
     }
 }
-@media screen and (max-device-width: 375px) {
+/*@media screen and (max-device-width: 375px) {
     header {
         line-height: 70px;
         display: flex;
@@ -980,4 +980,4 @@ footer>.r-right {
         height: 75px;
         top: 142px;
     }
-}
+}*/
