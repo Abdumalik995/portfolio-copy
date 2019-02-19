@@ -654,6 +654,9 @@ header {
         font-size: 17px;
     }
     .soc {
+        margin-left: 0;
+        margin: auto;
+        width: 80%;
         justify-content: space-around;
     }
 }
