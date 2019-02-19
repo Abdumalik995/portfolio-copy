@@ -76,3 +76,24 @@ ul li .fab {
         width: 90%;
     }
 }
+@media screen and (max-device-width: 375px) {
+    nav {
+        padding: 5px 0 5px 0 !important;
+    }
+    nav h3 {
+        font-size: 20px;
+    }
+    #min {
+        font-size: 35px;
+    }
+    #mini {
+        width: 150px;
+        height: 35px;
+    }
+    #minW {
+    	display: block;
+    }
+    #area {
+        width: 90%;
+    }
+}
