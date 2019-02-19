@@ -12,7 +12,7 @@ $(document).ready(function() {
       } else if(forid=="d") {
         $('html, body').animate({scrollTop:2270}, 900)
       } else if(forid=="e"){
-        $('html, body').animate({scrollTop:3400}, 1000);
+        $('html, body').animate({scrollTop:3600}, 1000);
       } else {
 
       }
@@ -32,9 +32,9 @@ $(document).ready(function() {
       } else if(forc=="c") {
         $('html, body').animate({scrollTop:1440}, 700);
       } else if(forc=="d") {
-        $('html, body').animate({scrollTop:2200}, 900)
+        $('html, body').animate({scrollTop:2150}, 900)
       } else if(forc=="e"){
-        $('html, body').animate({scrollTop:3600}, 1000);
+        $('html, body').animate({scrollTop:3450}, 1000);
       } else {
 
       }

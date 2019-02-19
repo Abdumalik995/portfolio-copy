@@ -146,8 +146,9 @@ nav div {
     color: #807272;
     cursor: pointer;
 }
-#left>#icon>ul>li:nth-child(1) {
-    color: crimson;
+#left>#icon>ul>li:nth-child(1) a {
+    font-size: 30px;
+    color:#03a9f4;
 }
 .r {
     font-family: 'Pacifico', cursive;
@@ -344,7 +345,7 @@ nav div {
     padding-top: 100px;
     width: 100%;
     max-width: 100vw;
-    height: 500px;
+    height: 700px;
     background: url(../img/ofis.jpg) no-repeat center;
     background-size: cover;
     background-attachment: fixed;
@@ -818,6 +819,10 @@ footer>.r-right {
     }
     #main {
         background: none;
+        height: 450px;
+    }
+    #con {
+        margin-top: 0;
     }
     div.tarif {
         margin: auto;
