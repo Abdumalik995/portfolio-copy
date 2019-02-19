@@ -734,6 +734,7 @@ footer>.r-right {
     }
     .r {
         font-size: 14px;
+        margin-bottom: 10px;
     }
     #head {
         display: none;
