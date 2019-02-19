@@ -722,16 +722,19 @@ footer>.r-right {
     header .my {
         display: block;
         text-align: left;
-        width: 60%;
+        width: 50%;
     }
     nav {
         display: none;
     }
     .r {
-        font-size: 10px;
+        font-size: 14px;
     }
     #head {
         display: none;
+    }
+    .container {
+        padding-top: 35px;
     }
     #left>button {
         border-radius: 0 12px 12px 12px;
@@ -749,7 +752,7 @@ footer>.r-right {
         right: 0;
         font-size: 22px;
         cursor: pointer;
-        width: 20%;
+        width: 30%;
         text-align: right;
     }
     #icon {
@@ -838,16 +841,19 @@ footer>.r-right {
     header .my {
         display: block;
         text-align: left;
-        width: 60%;
+        width: 50%;
     }
     nav {
         display: none;
     }
     .r {
-        font-size: 10px;
+        font-size: 14px;
     }
     #head {
         display: none;
+    }
+    .container {
+        padding-top: 35px;
     }
     #left>button {
         border-radius: 0 12px 12px 12px;
@@ -865,7 +871,7 @@ footer>.r-right {
         right: 0;
         font-size: 22px;
         cursor: pointer;
-        width: 20%;
+        width: 30%;
         text-align: right;
     }
     #icon {
