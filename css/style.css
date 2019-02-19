@@ -722,6 +722,7 @@ footer>.r-right {
         line-height: 70px;
         display: flex;
         justify-content: space-between;
+        align-items: baseline;
     }
     header .my {
         display: block;
