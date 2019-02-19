@@ -721,8 +721,9 @@ footer>.r-right {
 @media screen and (max-width: 375px) {
     header .my {
         display: block;
+        float: left;
         text-align: left;
-        width: 50%;
+        width: 60%;
     }
     nav {
         display: none;
@@ -738,8 +739,8 @@ footer>.r-right {
     }
     #left>button {
         border-radius: 0 12px 12px 12px;
-        margin-top: 25px;
-        margin-bottom: 20px;
+        margin-top: 15px;
+        margin-bottom: 15px;
     }
     #minW {
         display: block;
@@ -749,6 +750,7 @@ footer>.r-right {
     }
     #icn {
         display: block;
+        float: left;
         right: 0;
         font-size: 22px;
         cursor: pointer;
@@ -838,10 +840,11 @@ footer>.r-right {
     }
 }
 @media screen and (max-device-width: 375px) {
-    header .my {
+     header .my {
         display: block;
+        float: left;
         text-align: left;
-        width: 50%;
+        width: 60%;
     }
     nav {
         display: none;
@@ -857,8 +860,8 @@ footer>.r-right {
     }
     #left>button {
         border-radius: 0 12px 12px 12px;
-        margin-top: 25px;
-        margin-bottom: 20px;
+        margin-top: 15px;
+        margin-bottom: 15px;
     }
     #minW {
         display: block;
@@ -868,6 +871,7 @@ footer>.r-right {
     }
     #icn {
         display: block;
+        float: left;
         right: 0;
         font-size: 22px;
         cursor: pointer;
