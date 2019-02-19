@@ -1,40 +1,78 @@
 header h3, .fon h3 {
-	letter-spacing: 3px;
-	font-family: 'Yellowtail', cursive;
+    letter-spacing: 3px;
+    font-family: 'Yellowtail', cursive;
 }
 main {
-	overflow-y: scroll;
-	height: 100vh;
+    overflow-y: scroll;
+    height: 100vh;
+}
+#minW {
+    margin: auto;
+    margin-top: 15px;
+    width: 150px;
+    height: 35px;
+    line-height: 35px;
+    border: none;
+    border-radius: 3px;
+    font-weight: bolder;
+    box-shadow: 5px 5px 10px #ccc;
+    background: #4caf50;
+    display: none;
+}
+#minW a {
+    text-decoration: none;
+    color: #fff;
 }
 #hero .fab {
-	cursor: pointer;
+    cursor: pointer;
 }
 #area {
-	width: 70%;
-	height: 300px;
-	overflow: hidden;
-	box-shadow: 0px 0px 20px  #efe8e8;
+    width: 70%;
+    height: 300px;
+    overflow: hidden;
+    box-shadow: 0px 0px 20px #efe8e8;
 }
 ul li .fab {
-	font-size: 22px;
+    font-size: 22px;
 }
 #fikr {
-
-	height: 350px;
-	overflow: hidden;
-	box-shadow: 0px 0px 20px  #efe8e8; 
+    height: 350px;
+    overflow: hidden;
+    box-shadow: 0px 0px 20px #efe8e8;
 }
 .fikr {
-	width: 50px;
-	height: 10px;
-	background: #000;
+    width: 50px;
+    height: 10px;
+    background: #000;
 }
 #mail {
-	box-shadow: 0px 0px 20px  #efe8e8; 
+    box-shadow: 0px 0px 20px #efe8e8;
 }
-
-.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
     color: #fff !important;
     font-weight: bold;
-    background-color: crimson;
+    background-color: #ff5722;
+}
+/*Mobilniy started here*/
+
+@media screen and (max-width: 375px) {
+    nav {
+        padding: 5px 0 5px 0 !important;
+    }
+    nav h3 {
+        font-size: 20px;
+    }
+    #min {
+        font-size: 35px;
+    }
+    #mini {
+        width: 150px;
+        height: 35px;
+    }
+    #minW {
+    	display: block;
+    }
+    #area {
+        width: 90%;
+    }
 }

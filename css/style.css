@@ -76,14 +76,6 @@ nav div {
     color: crimson;
     font-weight: bold;
 }
-/*nav>ul>li:nth-child(6) {
-    left: 10px;
-    width: 30px;
-    cursor: pointer;
-    display: none;
-    position: relative;
-}*/
-
 .inmenu li {
     width: 100%;
     height: 40px;
@@ -122,8 +114,25 @@ nav div {
     background: crimson;
     color: #fff;
     border: none;
+    border-radius: 3px;
     font-weight: bolder;
     box-shadow: 5px 5px 10px #ccc;
+}
+#minW {
+    margin: auto;
+    width: 150px;
+    height: 35px;
+    line-height: 35px;
+    border: none;
+    border-radius: 12px 0 12px 12px;
+    font-weight: bolder;
+    box-shadow: 5px 5px 10px #ccc;
+    background: #4caf50;
+    display: none;
+}
+#minW a {
+    text-decoration: none;
+    color: #fff;
 }
 #left>#icon>ul {
     padding-left: 0;
@@ -222,13 +231,16 @@ nav div {
     margin: auto;
     width: 100%;
 }
+.into .slick-list .slick-track {
+    width: 200px;
+}
 #bio, #edu, #wor, #exp {
     font-family: 'Noto Serif', serif;
     text-align: center;
     font-weight: bolder;
     margin: 20px 10px 0;
     text-align: center;
-    width: 100px;
+    padding: 0;
     height: 35px;
     background: #fff;
     color: #000;
@@ -243,7 +255,7 @@ nav div {
     margin-bottom: 100px;
     padding: 50px 100px;
     overflow: hidden;
-    width: 80%;
+    width: 90%;
     height: 350px;
     background: #fff;
     box-shadow: 0px 0px 20px #efe8e8;
@@ -297,7 +309,6 @@ nav div {
 #workP img:hover {
     transform: scale(1.1);
     transition-duration: 1s;
-   
 }
 .img {
     width: 99%;
@@ -706,28 +717,40 @@ footer>.r-right {
         width: 30%;
     }
 }
-@media screen and (max-width: 376px) {
+@media screen and (max-width: 375px) {
     header .my {
         display: block;
-        text-align: center;
-        width: 80%;
+        text-align: left;
+        width: 60%;
+    }
+    nav {
+        display: none;
+    }
+    .r {
+        font-size: 10px;
     }
     #head {
         display: none;
     }
+    #left>button {
+        border-radius: 0 12px 12px 12px;
+        margin-top: 25px;
+        margin-bottom: 20px;
+    }
+    #minW {
+        display: block;
+    }
     #icn {
         display: block;
-        margin-right: 15px;
         right: 0;
         font-size: 22px;
         cursor: pointer;
+        width: 20%;
+        text-align: right;
     }
-    /*#icn:hover .inmenu {
-        display: block;
-
-        
-        font-size: 15px
-    }*/
+    #icon {
+        display: none;
+    }
     #right h1 {
         margin-top: 40px;
     }
@@ -737,6 +760,17 @@ footer>.r-right {
     #info {
         padding-top: 50px;
     }
+    #info>.r-left {
+        left: -25px;
+        width: 130px;
+        height: 130px;
+    }
+    #info>.r-right {
+        right: -20px;
+        width: 70px;
+        height: 70px;
+    }
+
     #bio, #edu, #wor, #exp {
         font-size: 6px;
     }
@@ -755,92 +789,7 @@ footer>.r-right {
     #plus ul li {
         width: 70%;
     }
-    #mail>form>input {
-        width: 75%;
-    }
-    #workP {
-        width: 66%;
-        padding-top: 20px;
-    }
-    #workP img {
-        width: 200px;
-        
-    }
-    #main {
-        background: none;
-    }
-    div.tarif {
-        margin: auto;
-        padding: 20px 30px;
-        width: 80%;
-        height: 300px;
-    }
-    footer>#fab {
-        display: none;
-    }
-    .tarif>.slick-next {
-        left: 88%;
-    }
-    footer>.r-left {
-        width: 75px;
-        height: 75px;
-    }
-    footer>.r-right {
-        width: 75px;
-        height: 75px;
-        top: 142px;
-    }
-}
-@media screen and (max-device-width: 376px) {
-    header .my {
-        display: block;
-        text-align: center;
-        width: 80%;
-    }
-    #head {
-        display: none;
-    }
-    #icn {
-        display: block;
-        margin-right: 15px;
-        right: 0;
-        font-size: 22px;
-        cursor: pointer;
-    }
-    /*#icn:hover .inmenu {
-        display: block;
-
-        
-        font-size: 15px
-    }*/
-    #right h1 {
-        margin-top: 40px;
-    }
-    #right h2 {
-        margin-top: 70px;
-    }
-    #info {
-        padding-top: 50px;
-    }
-    #bio, #edu, #wor, #exp {
-        font-size: 6px;
-    }
-    #area {
-        padding: 10px;
-    }
-    #plus {
-        padding-top: 0;
-        padding-bottom: 0;
-        margin-top: 0;
-        margin-bottom: 0;
-    }
-    #plus ul {
-        flex-direction: column;
-    }
-    #plus ul li {
-        width: 70%;
-    }
-    #mail>form>input {
+    #mail>form>input, #mail>form>textarea {
         width: 75%;
     }
     #workP {
@@ -860,8 +809,8 @@ footer>.r-right {
         height: 300px;
     }
     #imzo {
-        width: 90%;
-        text-align: center;
+        width: 65%;
+        margin: auto;
     }
     footer>#fab {
         display: none;
