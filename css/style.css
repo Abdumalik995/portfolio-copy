@@ -734,8 +734,8 @@ footer>.r-right {
         display: none;
     }
     .r {
-        font-size: 14px;
-        margin-bottom: 10px;
+        font-size: 14px;       
+        transform: skewY(-20deg);
     }
     #head {
         display: none;
