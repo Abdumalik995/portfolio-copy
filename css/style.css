@@ -857,6 +857,7 @@ footer>.r-right {
         float: left;
         text-align: left;
         width: 60%;
+        padding-top: 10px;
     }
     nav {
         display: none;
