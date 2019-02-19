@@ -140,7 +140,7 @@ nav div {
     display: flex;
     justify-content: flex-start;
 }
-#left>#icon>ul>li {
+#left>#icon>ul>li a {
     font-size: 20px;
     margin-right: 15px;
     color: #807272;
@@ -149,6 +149,7 @@ nav div {
 #left>#icon>ul>li:nth-child(1) a {
     font-size: 30px;
     color:#009688;
+
 }
 .r {
     font-family: 'Pacifico', cursive;

@@ -105,4 +105,9 @@ main {
     #grad h3, #grad p {
         margin: 0;
     }
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
 }

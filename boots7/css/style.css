@@ -72,8 +72,16 @@ ul li .fab {
     #minW {
     	display: block;
     }
+    #fabs {
+    	display: none;
+    }
     #area {
         width: 90%;
+    }
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
     }
 }
 @media screen and (max-device-width: 375px) {
