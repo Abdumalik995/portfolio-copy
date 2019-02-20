@@ -141,9 +141,15 @@ $(document).ready(function() {
     $('#icn').click(function() {
         $('.inmenu').css('display','block');
     });
+    $('#icn').dblclick(function() {
+        $('.inmenu').css('display','none');
+    });
     $('.inmenu').mouseleave(function() {
         $(this).css('display','none')
-    })
+    });
+
+
+
 });
 
 
