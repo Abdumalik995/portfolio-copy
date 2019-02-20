@@ -56,11 +56,15 @@ ul li .fab {
 /*Mobilniy started here*/
 
 @media screen and (max-width: 375px) {
+    
     nav {
         padding: 5px 0 5px 0 !important;
     }
     nav h3 {
-        font-size: 20px;
+        display: none;
+    }
+    nav button {
+    	margin-bottom: 10px;
     }
     #min {
         font-size: 35px;
@@ -85,11 +89,14 @@ ul li .fab {
     }
 }
 @media screen and (max-device-width: 375px) {
+    header {
+    	height: 50px !important;
+    }
     nav {
         padding: 5px 0 5px 0 !important;
     }
     nav h3 {
-        font-size: 20px;
+        display: none;
     }
     #min {
         font-size: 35px;

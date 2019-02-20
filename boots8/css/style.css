@@ -69,10 +69,12 @@ main {
     right: 70px;
     top: 40px;
 }
+
+/*Mobile version started here*/
 @media screen and (max-width: 768px) {
     #badge {
         right: 10px;
-        top: px;
+       
     }
     #grad {
         right: 20px;
@@ -83,8 +85,15 @@ main {
     nav {
         padding: 0;
     }
+    nav h3 {
+        display: none !important;
+    }
+    nav button {
+        margin-bottom: 5px;
+
+    }
     #hero h1 {
-        font-size: 30px;
+        font-size: 40px;
         text-align: center;
     }
     #hero button {

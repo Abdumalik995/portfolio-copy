@@ -13,7 +13,7 @@ header {
     position: fixed;
     display: flex;
     justify-content: space-around;
-    width: 100%;    
+    width: 100%;
     font-weight: bold;
     color: #000;
     font-size: 17px;
@@ -148,8 +148,7 @@ nav div {
 }
 #left>#icon>ul>li:nth-child(1) a {
     font-size: 30px;
-    color:#009688;
-
+    color: #009688;
 }
 .r {
     font-family: 'Pacifico', cursive;
@@ -363,7 +362,7 @@ div.tarif {
     box-shadow: 0px 0px 30px #673AB7;
 }
 .tarif h4 {
-    margin-top: 50px;
+    margin-top: 70px;
 }
 .tarif h5 {
     margin-top: 10px;
@@ -507,6 +506,8 @@ footer>.r-right {
     bottom: 30px;
     cursor: pointer;
 }
+/* Mobile version */
+
 @media screen and (max-width: 1024px) {
     #workP img {
         height: 150px;
@@ -720,13 +721,13 @@ footer>.r-right {
     }
 }
 @media screen and (max-width: 375px) {
-    header {        
+    header {
         display: flex;
         justify-content: space-between;
         align-items: center;
     }
     header .my {
-        display: inline-block;        
+        display: inline-block;
         text-align: left;
         width: 60%;
         margin-bottom: 15px;
@@ -736,7 +737,6 @@ footer>.r-right {
     }
     .r {
         font-size: 17px;
-      
     }
     #head {
         display: none;
@@ -759,7 +759,7 @@ footer>.r-right {
         display: block;
     }
     #icn {
-        display: inline-block;        
+        display: inline-block;
         right: 0;
         font-size: 22px;
         cursor: pointer;
@@ -809,9 +809,12 @@ footer>.r-right {
     #plus ul li {
         width: 70%;
     }
-    #mail>form>input, #mail>form>textarea {
-        width: 75%;
+    #mail {
+        display: none;
     }
+    /*#mail>form>input, #mail>form>textarea {
+        width: 75%;
+    }*/
     #workP {
         width: 66%;
         padding-top: 20px;
@@ -836,11 +839,18 @@ footer>.r-right {
         width: 65%;
         margin: auto;
     }
+    #con>.r-right {
+        top: 20px;
+    }
     footer>#fab {
         display: none;
     }
+    .tarif>.slick-prev {
+        left: 5px;
+        
+    }
     .tarif>.slick-next {
-        left: 88%;
+        left: 86%;
     }
     footer>.r-left {
         width: 75px;
@@ -853,13 +863,13 @@ footer>.r-right {
     }
 }
 @media screen and (max-device-width: 375px) {
-     header {
+    header {
         display: flex;
         justify-content: space-between;
         align-items: center;
     }
     header .my {
-        display: inline-block;        
+        display: inline-block;
         text-align: left;
         width: 60%;
         margin-bottom: 15px;
@@ -869,7 +879,6 @@ footer>.r-right {
     }
     .r {
         font-size: 17px;
-               
     }
     #head {
         display: none;
@@ -892,7 +901,7 @@ footer>.r-right {
         display: block;
     }
     #icn {
-        display: inline-block;        
+        display: inline-block;
         right: 0;
         font-size: 22px;
         cursor: pointer;
