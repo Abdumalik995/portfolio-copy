@@ -139,11 +139,13 @@ $(document).ready(function() {
         console.log(222);
     });
     $('#icn').click(function() {
-        $('.inmenu').css('display','block');
+        $('.inmenu').css('display','block');     
     });
+
     $('#icn').dblclick(function() {
-        $('.inmenu').css('display','none');
+        $('.inmenu').fadeOut();
     });
+
     $('.inmenu').mouseleave(function() {
         $(this).css('display','none')
     });
