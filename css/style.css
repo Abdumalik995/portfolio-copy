@@ -311,6 +311,9 @@ nav div {
     transform: scale(1.1);
     transition-duration: 1s;
 }
+.open {
+    display: block;
+}
 .img {
     width: 99%;
     margin: auto;

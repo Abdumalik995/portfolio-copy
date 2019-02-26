@@ -158,11 +158,9 @@ $(document).ready(function() {
          });*/
     });
     $('#icn').click(function() {
-        $('.inmenu').css('display', 'block');
+        $('.inmenu').slideToggle().toggleClass('open');
     });
-    $('#icn').dblclick(function() {
-        $('.inmenu').fadeOut();
-    });
+    
     $('.inmenu').mouseleave(function() {
         $(this).css('display', 'none')
     });
