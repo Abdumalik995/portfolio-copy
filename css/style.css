@@ -14,17 +14,22 @@ header {
     display: flex;
     justify-content: space-around;
     width: 100%;
-    font-weight: bold;
-    color: #000;
+    font-weight: bold;    
     font-size: 17px;
     text-align: right;
     align-items: center;
     z-index: 1;
-    color: #fff;
+    color: #000;
     height: 70px;
-    background: #000;
+    background: #fff;
 }
-.added {}
+
+.nice_nav {
+    background: #000;
+    color: #fff;
+    box-shadow: 0px 0px 3px #000; 
+}
+
 header>.my {
     line-height: 70px;
     text-align: left;
@@ -297,13 +302,13 @@ nav div {
 #workP {
     position: relative;
     margin: auto;
-    width: 87%;
+    width: 99%;
     padding-top: 165px;
     text-align: center;
 }
 #workP img {
-    height: 200px;
-    width: 240px;
+    height: 250px;
+    width: 300px;
     margin: 5px;
     margin-bottom: 100px;
 }
@@ -511,6 +516,7 @@ footer>.r-right {
     right: 30px;
     bottom: 30px;
     cursor: pointer;
+    display: none;
 }
 /* Mobile version */
 

@@ -6,6 +6,7 @@ $(document).ready(function() {
             $('html, body').animate({
                 scrollTop: 0
             }, 500);
+            $('header').removeClass('nice_nav');
         } else if (forid == "b") {
             $('html, body').animate({
                 scrollTop: 850
@@ -31,6 +32,7 @@ $(document).ready(function() {
             $('html, body').animate({
                 scrollTop: 0
             }, 500);
+            $('header').removeClass('nice_nav');
         } else if (forc == "b") {
             $('html, body').animate({
                 scrollTop: 700
@@ -56,7 +58,10 @@ $(document).ready(function() {
         var works = $('#workP').offset().top;
         var hire = $('#con').offset().top;
         if (scrollPosition >= 60 && scrollPosition < about) {
-            /*$('header').addClass('added');*/
+            $('header').addClass('nice_nav');
+            if (scrollPosition == 10) {
+                $('header').toggleClass('nice_nav');
+            }
             $('nav ul li [data-id=home]').addClass('add');
         } else if (scrollPosition > about && scrollPosition < service) {
             $('nav ul li .add').removeClass('add');
@@ -83,7 +88,8 @@ $(document).ready(function() {
     $('#go').click(function(e) {
         $('body, html').animate({
             scrollTop: 0
-        }, 300)
+        }, 300);
+        $('header').removeClass('nice_nav');
     });
     $(window).scroll(function(e) {
         var newScroll = e.currentTarget.scrollY;
@@ -160,7 +166,6 @@ $(document).ready(function() {
     $('#icn').click(function() {
         $('.inmenu').slideToggle().toggleClass('open');
     });
-    
     $('.inmenu').mouseleave(function() {
         $(this).css('display', 'none')
     });
