@@ -3,7 +3,8 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="abotirov.uz, abotirov" content="keywords">
+	<meta name="keywords" content="abotirov.uz, abotirov">
+	<meta name="author" content="Abdumalik Boyzaqov">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>My portfolio</title>
 	<link href="img/info.jpg" rel="icon" sizes="32x32" type="image/jpg">
@@ -127,10 +128,10 @@
 		<div id="mail">
 			<h3>Talk to <span>me</span></h3>
 			<form id="formb" action="mailto:abdumalik.botirov.95@mail.ru" method="POST" title="Yoki Telegram messenger orqali xabar xoldiring">
-				<input type="text" name="to_name" placeholder="full name here" required="">
-				<input type="email" name="from_name" placeholder="@email here" required="">
-				<textarea name="message_html" style="height: 100px" placeholder="Type here"></textarea><br>			
-				<input id="sub" type="submit" name="same" value="SUBSCRIBE">
+				<input type="text" name="name" placeholder="full name here" required="">
+				<input type="email" name="email" placeholder="@email here" required="">
+				<textarea name="message" style="height: 100px" placeholder="Type here"></textarea><br>			
+				<input id="sub" type="submit" name="submit" value="SUBSCRIBE">
 			</form>
 		</div>
 				<div class="r-left"></div>
@@ -155,6 +156,53 @@
 		</footer>
 	</section>
 	<div id="go"><i class="fas fa-chevron-up"></i></div>
+	
+<!-- <?php
+ob_start();
+echo 'Name: '.$_POST['name'].'<br>';
+echo 'Email: '.$_POST['email'].'<br>';
+echo 'Message: '.$_POST['message'].'<br>';
+//echo 'Budget: '.$_POST['budget'].'<br>';
+//echo 'Pages: '.$_POST['pages'].'<br>';
+//echo 'Message: '.$_POST['message'].'<br>';
+
+
+$mails_content = ob_get_clean();
+$headers = 'MIME-Version: 1.0' . "\r\n";
+$headers = 'From: info@aliglob.com' . "\r\n";
+$headers .= 'Content-type: text/html; charset=utf-8' . "\r\n";
+mail('abdumalik.botirov.95@mail.ru', 'New request from AliGlob.com'. $_post['name'], $mails_content, $headers);
+ 
+
+
+
+ob_start();
+
+echo 'Dear '.$_POST['name'].'<br>
+<br>
+Thank you for your interest in our website services. Ali Globalization is a creative website development company with affordable price.<br>
+<br>
+We have received your project information and we will contact you shortly. You can call us at 917-293-4098 at any time.<br>
+<br><br>
+<br>
+Sincerely,<br>
+<br>
+Ali Globalization Team<br>
+<br>
+<br>
+<b>Phone:</b>  917-293-4098<br>
+<b>Email:</b> abdumalik.botirov.95@mail.ru<br>
+<b>Website:</b> www.aliGlob.com<br>';
+
+$mail_content = ob_get_clean();
+mail($_POST['email'], 'Thank you! We received your request', $mail_content, $headers);
+
+?>
+
+
+<script>
+	window.location.href = 'http://abotirov.uz';
+</script> -->
 
 	<script src="jquery.js"></script>
 	<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
