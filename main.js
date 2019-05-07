@@ -1,5 +1,6 @@
 $(document).ready(function() {
-    $("nav ul li").click(function() {
+
+    $("nav ul li").click(function() {        
         var forid = $(this).attr("class");
         console.log("ishlaey");
         if (forid == "a") {
@@ -25,6 +26,7 @@ $(document).ready(function() {
             }, 1000);
         } else {}
     });
+
     $("#icn ul li").click(function() {
         var forc = $(this).attr("class");
         console.log("ishlaey");
@@ -51,6 +53,7 @@ $(document).ready(function() {
             }, 1000);
         } else {}
     });
+
     $(document).scroll(function() {
         var scrollPosition = $(this).scrollTop();
         var about = $('#info').offset().top;
@@ -59,7 +62,7 @@ $(document).ready(function() {
         var hire = $('#con').offset().top;
         if (scrollPosition >= 60 && scrollPosition < about) {
             $('header').addClass('nice_nav');
-            if (scrollPosition == 10) {
+            if (scrollPosition == 50) {
                 $('header').toggleClass('nice_nav');
             }
             $('nav ul li [data-id=home]').addClass('add');
@@ -86,10 +89,11 @@ $(document).ready(function() {
         }
     });
     $('#go').click(function(e) {
+         $('header').removeClass('nice_nav');
         $('body, html').animate({
             scrollTop: 0
         }, 300);
-        $('header').removeClass('nice_nav');
+       
     });
     $(window).scroll(function(e) {
         var newScroll = e.currentTarget.scrollY;
@@ -133,7 +137,7 @@ $(document).ready(function() {
         console.log('actived')
     });
     $('form').submit(function(e) {
-        e.preventDefault();
+        //e.preventDefault();
         /* var template_params = {
              "reply_to": "reply_to_value",
              "from_name": "from_name_value",

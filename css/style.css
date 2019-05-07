@@ -516,7 +516,7 @@ footer>.r-right {
     cursor: pointer;
     display: none;
 }
-/* Mobile version */
+/* Mobile version responsive*/
 
 @media screen and (max-width: 1024px) {
     #workP img {
